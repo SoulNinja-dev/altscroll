@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "AltScroll",
   "version": "0.1",
   "description": "twitter timeline remade",

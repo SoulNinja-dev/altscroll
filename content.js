@@ -38,19 +38,19 @@ const unbias = () => {
       tweets[i].children[0].children[1].remove();
     }
 
-    // stats
-    if (
-      tweets[i].children[0].children[0].children[0].children[0].children[0]
-        .children[1].children.length == 3
-    ) {
-      tweets[
-        i
-      ].children[0].children[0].children[0].children[0].children[0].children[1].children[2].remove();
-    } else {
-      tweets[
-        i
-      ].children[0].children[0].children[0].children[0].children[0].children[1].children[1].remove();
-    }
+    // // stats
+    // if (
+    //   tweets[i].children[0].children[0].children[0].children[0].children[0]
+    //     .children[1].children.length == 3
+    // ) {
+    //   tweets[
+    //     i
+    //   ].children[0].children[0].children[0].children[0].children[0].children[1].children[2].remove();
+    // } else {
+    //   tweets[
+    //     i
+    //   ].children[0].children[0].children[0].children[0].children[0].children[1].children[1].remove();
+    // }
   }
 };
 
